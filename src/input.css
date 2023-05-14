@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;100&display=swap");
+
+@layer components {
+  .circle-bg1 {
+    content: "";
+    display: block;
+    width: 600%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    border-radius: 60%;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    z-index: -2;
+  }
+}
+
+@layer components {
+  .circle-bg2 {
+    content: "";
+    display: block;
+    width: 150%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+  }
+}
