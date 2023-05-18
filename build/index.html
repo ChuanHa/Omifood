@@ -3,49 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Omnifood - Never cook again!</title>
   </head>
   <body class="dark:true dark:bg-black">
     <header
-      class="fixed flex h-20 w-full items-center justify-between bg-linen px-10 py-0 xl:z-10"
+      class="sticky flex h-20 w-full items-center justify-between bg-linen px-10 py-0 lg:z-10"
     >
-      <img src="./img/omnifood-logo.png" alt="Omnifood Logo" class="h-6" />
+      <img
+        src="./img/omnifood-logo.png"
+        alt="Omnifood Logo"
+        class="h-5 lg:h-6"
+      />
       <nav>
         <ul class="flex items-center gap-10">
           <li>
             <a
               href="#"
-              class="font-rubik text-lg font-semibold text-dgray transition-all duration-500 hover:text-lorange"
+              class="font-rubik text-base font-semibold text-dgray transition-all duration-500 hover:text-lorange lg:text-lg"
               >How it works</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="font-rubik text-lg font-semibold text-dgray transition-all duration-500 hover:text-lorange"
+              class="font-rubik text-base font-semibold text-dgray transition-all duration-500 hover:text-lorange lg:text-lg"
               >Meals</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="font-rubik text-lg font-semibold text-dgray transition-all duration-500 hover:text-lorange"
+              class="font-rubik text-base font-semibold text-dgray transition-all duration-500 hover:text-lorange lg:text-lg"
               >Testimonials</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="font-rubik text-lg font-semibold text-dgray transition-all duration-500 hover:text-lorange"
+              class="font-rubik text-base font-semibold text-dgray transition-all duration-500 hover:text-lorange lg:text-lg"
               >Pricing</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="mr-2 box-border inline-block rounded-lg bg-orange px-6 py-2 text-center font-inter text-lg font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange"
+              class="mr-2 box-border inline-block rounded-lg bg-orange px-6 py-2 text-center font-inter text-base font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange lg:text-lg"
               >Try for free</a
             >
           </li>
@@ -59,26 +66,30 @@
         >
           <div>
             <h1
-              class="mb-12 text-start font-rubik text-4xl font-extrabold tracking-tight text-dgray xl:text-5xl"
+              class="mb-12 text-start font-rubik text-2xl font-extrabold tracking-tight text-dgray lg:text-3xl xl:text-5xl"
             >
               A healthy meal delivered to your door, every single day
             </h1>
-            <p class="mb-14 font-inter text-xl font-light">
+            <p
+              class="mb-14 font-inter text-base font-light lg:text-lg xl:text-xl"
+            >
               The smart 365-days-per-year food subscription that will make you
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a
-              href="#"
-              class="mr-2 box-border inline-block items-center rounded-lg bg-orange px-8 py-3 text-center font-inter text-xl font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange"
-            >
-              Start eating well
-            </a>
-            <a
-              href="#"
-              class="mx-2 box-border inline-block rounded-lg bg-white px-8 py-3 text-center font-inter text-xl font-semibold text-gray transition-all duration-300 hover:border-white hover:bg-linen hover:ring-2 hover:ring-white focus:outline-none focus:ring-8 focus:ring-orange"
-              >Learn more &darr;</a
-            >
+            <div class="grid grid-cols-2 gap-6 xl:mb-32">
+              <a
+                href="#"
+                class="items-center rounded-lg bg-orange py-4 text-center font-inter text-base font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange lg:text-lg xl:text-xl"
+              >
+                Start eating well
+              </a>
+              <a
+                href="#"
+                class="rounded-lg bg-white py-4 text-center font-inter text-base font-semibold text-gray transition-all duration-300 hover:border-white hover:bg-linen hover:ring-2 hover:ring-white focus:outline-none focus:ring-8 focus:ring-orange lg:text-lg xl:text-xl"
+                >Learn more &darr;</a
+              >
+            </div>
           </div>
           <div>
             <img
@@ -92,85 +103,89 @@
               <img
                 src="./img/customers/customer-1.jpg"
                 alt="Customer 1"
-                class="-mr-3 h-11 w-11 rounded-full"
+                class="-mr-3 h-9 w-9 rounded-full lg:h-11 lg:w-11"
               />
               <img
                 src="./img/customers/customer-2.jpg"
                 alt="Customer 2"
-                class="-mr-3 h-11 w-11 rounded-full"
+                class="-mr-3 h-9 w-9 rounded-full lg:h-11 lg:w-11"
               />
               <img
                 src="./img/customers/customer-3.jpg"
                 alt="Customer 3"
-                class="-mr-3 h-11 w-11 rounded-full"
+                class="-mr-3 h-9 w-9 rounded-full lg:h-11 lg:w-11"
               />
               <img
                 src="./img/customers/customer-4.jpg"
                 alt="Customer 4"
-                class="-mr-3 h-11 w-11 rounded-full"
+                class="-mr-3 h-9 w-9 rounded-full lg:h-11 lg:w-11"
               />
               <img
                 src="./img/customers/customer-5.jpg"
                 alt="Customer 5"
-                class="-mr-3 h-11 w-11 rounded-full"
+                class="-mr-3 h-9 w-9 rounded-full lg:h-11 lg:w-11"
               />
               <img
                 src="./img/customers/customer-6.jpg"
                 alt="Customer 6"
-                class="h-11 w-11 rounded-full"
+                class="h-9 w-9 rounded-full lg:h-11 lg:w-11"
               />
               <p
-                class="ml-5 mt-0 self-center text-center font-inter text-lg font-semibold text-dgray"
+                class="ml-5 mt-0 self-center text-center font-inter text-base font-semibold text-dgray xl:text-lg"
               >
-                <span class="font-extrabold text-lorange">250,000+</span> meals
-                delivered last year!
+                <span class="font-extrabold text-lorange">250,000+</span>
+                meals delivered last year!
               </p>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <div
-          class="my-0 mx-auto px-10 py-0 lg:max-w-screen-lg xl:max-w-screen-xl"
-        >
-          <h1 class="mb-4 pt-10 text-center font-semibold text-dgray">
+        <div class="my-0 mx-auto px-10 py-0 xl:max-w-screen-xl">
+          <h1
+            class="mb-4 pt-10 text-center text-base font-semibold text-dgray lg:text-lg"
+          >
             AS FEATURED IN
           </h1>
-          <div class="flex justify-between xl:justify-around">
+          <div class="flex flex-nowrap justify-between xl:justify-around">
             <img
               src="./img/logos/techcrunch.png"
               alt="Tech Crunch Logo"
-              class="h-8 px-8 opacity-50 brightness-0"
+              class="h-6 opacity-50 brightness-0 lg:h-8"
             />
             <img
               src="./img/logos/business-insider.png"
               alt="Business Insider Logo"
-              class="h-8 px-8 opacity-50 brightness-0"
+              class="h-6 opacity-50 brightness-0 lg:h-8"
             />
             <img
               src="./img/logos/the-new-york-times.png"
               alt="The New York Times Logo"
-              class="h-8 px-8 opacity-50 brightness-0"
+              class="h-6 opacity-50 brightness-0 lg:h-8"
             />
             <img
               src="./img/logos/forbes.png"
               alt="Forbes Logo"
-              class="h-8 px-8 opacity-50 brightness-0"
+              class="h-6 opacity-50 brightness-0 lg:h-8"
             />
             <img
               src="./img/logos/usa-today.png"
               alt="USA Today Logo"
-              class="h-8 px-8 opacity-50 brightness-0"
+              class="h-6 opacity-50 brightness-0 lg:h-8"
             />
           </div>
         </div>
       </section>
       <section>
         <div class="my-0 mx-auto max-w-screen-lg px-8 xl:max-w-screen-xl">
-          <h4 class="mb-4 mt-20 text-start text-lg font-semibold text-dorange">
+          <h4
+            class="mb-4 mt-20 text-start text-base font-semibold text-dorange lg:text-lg"
+          >
             HOW IT WORKS
           </h4>
-          <h1 class="mb-28 text-start text-3xl font-bold xl:text-4xl">
+          <h1
+            class="mb-28 text-start text-2xl font-bold lg:text-3xl xl:text-4xl"
+          >
             Your daily dose of health in 3 simple steps
           </h1>
         </div>
@@ -178,11 +193,17 @@
           class="mx-auto mt-0 mb-20 grid max-w-screen-lg grid-cols-2 items-center gap-x-60 px-8 xl:max-w-screen-xl"
         >
           <div>
-            <h1 class="mb-4 text-8xl font-bold text-lgray">01</h1>
-            <h2 class="mb-6 font-rubik text-3xl font-bold">
+            <h1
+              class="mb-4 text-7xl font-bold text-lgray lg:text-8xl xl:text-9xl"
+            >
+              01
+            </h1>
+            <h2
+              class="mb-6 font-rubik text-lg font-bold lg:text-2xl xl:text-3xl"
+            >
               Tell us what you like (and what not)
             </h2>
-            <p class="text-start text-lg">
+            <p class="text-start text-base lg:text-lg xl:text-xl">
               Never again waste time thinking about what to eat! Omnifood AI
               will create a 100% personalized weekly meal plan just for you. It
               makes sure you get all the nutrients and vitamins you need, no
@@ -200,11 +221,17 @@
             <img src="./img/app/app-screen-2.png" alt="" class="h-auto w-1/3" />
           </div>
           <div>
-            <h1 class="mb-4 text-8xl font-bold text-lgray">02</h1>
-            <h2 class="mb-6 font-rubik text-3xl font-bold">
+            <h1
+              class="mb-4 text-7xl font-bold text-lgray lg:text-8xl xl:text-9xl"
+            >
+              02
+            </h1>
+            <h2
+              class="mb-6 font-rubik text-lg font-bold lg:text-2xl xl:text-3xl"
+            >
               Approve your weekly meal plan
             </h2>
-            <p class="text-start text-lg">
+            <p class="text-start text-base lg:text-lg xl:text-xl">
               Once per week, approve the meal plan generated for you by Omnifood
               AI. You can change ingredients, swap entire meals, or even add
               your own recipes.
@@ -215,11 +242,17 @@
           class="mx-auto mt-0 mb-20 grid max-w-screen-lg grid-cols-2 items-center gap-x-60 px-8 xl:max-w-screen-xl"
         >
           <div>
-            <h1 class="mb-4 text-8xl font-bold text-lgray">03</h1>
-            <h2 class="mb-6 font-rubik text-3xl font-bold">
+            <h1
+              class="mb-4 text-7xl font-bold text-lgray lg:text-8xl xl:text-9xl"
+            >
+              03
+            </h1>
+            <h2
+              class="mb-6 font-rubik text-lg font-bold lg:text-2xl xl:text-3xl"
+            >
               Receive meals at convenient time
             </h2>
-            <p class="text-start text-lg">
+            <p class="text-start text-base lg:text-lg xl:text-xl">
               Best chefs in town will cook your selected meal every day, and we
               will deliver it to your door whenever works best for you. You can
               change delivery schedule and address daily!
@@ -232,8 +265,12 @@
       </section>
       <section>
         <div class="text-center">
-          <h4 class="py-3 text-base font-bold text-lorange">MEALS</h4>
-          <h2 class="font-rubik text-3xl font-extrabold text-dgray xl:text-4xl">
+          <h4 class="py-3 text-base font-bold text-dorange lg:text-xl">
+            MEALS
+          </h4>
+          <h2
+            class="font-rubik text-xl font-extrabold text-dgray lg:text-3xl xl:text-4xl"
+          >
             Omnifood AI chooses from 5,000+ recipes
           </h2>
         </div>
@@ -250,18 +287,20 @@
               >
                 Vegetarian
               </h4>
-              <h2 class="mb-7 text-2xl font-bold text-dgray xl:text-3xl">
+              <h2
+                class="mb-7 text-lg font-bold text-dgray lg:text-2xl xl:text-3xl"
+              >
                 Japanese Gyozas
               </h2>
               <ul class="flex flex-col justify-between gap-4">
-                <li class="flex items-center gap-2 text-lg">
+                <li class="flex items-center gap-2 text-lg lg:text-xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#e67e22"
-                    class="h-6 w-6"
+                    class="h-5 w-5 lg:h-6 lg:w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -274,16 +313,16 @@
                       d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z"
                     />
                   </svg>
-                  <span class="font-bold">650</span> calories
+                  <span class="font-bold">650</span>calories
                 </li>
-                <li class="flex items-center gap-2 text-lg">
+                <li class="flex items-center gap-2 text-lg lg:text-xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#e67e22"
-                    class="h-6 w-6"
+                    class="h-5 w-5 lg:h-6 lg:w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -293,14 +332,14 @@
                   </svg>
                   Nutriscore &reg;<span class="font-bold">74</span>
                 </li>
-                <li class="flex items-center gap-2 text-lg">
+                <li class="flex items-center gap-2 text-lg lg:text-xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#e67e22"
-                    class="h-6 w-6"
+                    class="h-5 w-5 lg:h-6 lg:w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -308,7 +347,7 @@
                       d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
                     />
                   </svg>
-                  <span class="font-bold">4.9 </span>rating (537)
+                  <span class="font-bold">4.9</span>rating (537)
                 </li>
               </ul>
             </div>
@@ -326,18 +365,20 @@
                 class="mb-1 inline-block rounded-full bg-yellow px-2 py-0.5 text-xs font-bold uppercase"
                 >Paleo</span
               >
-              <h2 class="mb-7 text-2xl font-bold text-dgray xl:text-3xl">
+              <h2
+                class="mb-7 text-lg font-bold text-dgray lg:text-2xl xl:text-3xl"
+              >
                 Avocado Salad
               </h2>
               <ul class="flex flex-col justify-between gap-4">
-                <li class="flex items-center gap-2 text-lg">
+                <li class="flex items-center gap-2 text-lg lg:text-xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#e67e22"
-                    class="h-6 w-6"
+                    class="h-5 w-5 lg:h-6 lg:w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -350,16 +391,17 @@
                       d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z"
                     />
                   </svg>
-                  <span class="font-bold">400</span> calories
+                  <span class="font-bold">400</span>
+                  calories
                 </li>
-                <li class="flex items-center gap-2 text-lg">
+                <li class="flex items-center gap-2 text-lg lg:text-xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#e67e22"
-                    class="h-6 w-6"
+                    class="h-5 w-5 lg:h-6 lg:w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -367,16 +409,17 @@
                       d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
                     />
                   </svg>
-                  Nutriscore &reg; <span class="font-bold">92</span>
+                  Nutriscore &reg;
+                  <span class="font-bold">92</span>
                 </li>
-                <li class="flex items-center gap-2 text-lg">
+                <li class="flex items-center gap-2 text-lg lg:text-xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#e67e22"
-                    class="h-6 w-6"
+                    class="h-5 w-5 lg:h-6 lg:w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -390,18 +433,18 @@
             </div>
           </div>
           <div class="flex flex-col">
-            <h2 class="font-rubik text-xl font-bold xl:text-3xl">
+            <h2 class="font-rubik text-2xl font-bold lg:text-3xl">
               Works with any diet:
             </h2>
             <ul class="mb-10 mt-5 flex flex-col gap-y-5">
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -411,14 +454,14 @@
                 </svg>
                 <span>Vegetarian</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -428,14 +471,14 @@
                 </svg>
                 <span>Vegan</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -445,14 +488,14 @@
                 </svg>
                 <span>Pescatarian</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -462,14 +505,14 @@
                 </svg>
                 <span>Gluten-free</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -479,14 +522,14 @@
                 </svg>
                 <span>Lactose-free</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -496,14 +539,14 @@
                 </svg>
                 <span>Keto</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -513,14 +556,14 @@
                 </svg>
                 <span>Paleo</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -530,14 +573,14 @@
                 </svg>
                 <span>Low FOODMAP</span>
               </li>
-              <li class="items-center text-lg text-dgray xl:text-xl">
+              <li class="items-center text-lg text-dgray lg:text-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-7 lg:w-7"
                 >
                   <path
                     stroke-linecap="round"
@@ -555,16 +598,19 @@
         >
           <a
             href="#"
-            class="font-inter text-lg text-orange underline transition-all duration-200 hover:text-dorange hover:no-underline"
+            class="font-inter text-lg text-orange underline transition-all duration-200 hover:text-dorange hover:no-underline lg:text-xl"
             >See all recipes &rarr;</a
           >
         </div>
       </section>
       <section class="grid max-w-full grid-cols-2 gap-20 bg-linen px-5 py-5">
         <div class="px-20 py-36">
-          <span class="font-semibold uppercase text-dorange">Testimonials</span>
+          <span
+            class="text-base font-semibold uppercase text-dorange lg:text-lg"
+            >Testimonials</span
+          >
           <h2
-            class="mt-5 mb-28 font-rubik text-4xl font-extrabold text-dgray xl:text-5xl"
+            class="mt-5 mb-28 font-rubik text-2xl font-extrabold text-dgray lg:text-4xl xl:text-5xl"
           >
             Once you try it, you can't go back
           </h2>
@@ -573,13 +619,13 @@
               <img
                 src="./img/customers/dave.jpg"
                 alt="Dave"
-                class="w-16 rounded-full"
+                class="w-14 rounded-full lg:w-16"
               />
-              <blockquote class="text-base xl:text-xl">
+              <blockquote class="text-base lg:text-xl">
                 Inexpensive, healthy and great-tasting meals, without even
                 having to order manually! It feels truly magical.
               </blockquote>
-              <p class="text-base font-medium text-ltgray">
+              <p class="text-sm font-medium text-ltgray lg:text-base">
                 &mdash; Dave Bryson
               </p>
             </figure>
@@ -587,13 +633,13 @@
               <img
                 src="./img/customers/steve.jpg"
                 alt="Steve"
-                class="w-16 rounded-full"
+                class="w-14 rounded-full lg:w-16"
               />
-              <blockquote class="text-base xl:text-xl">
+              <blockquote class="text-base lg:text-xl">
                 Omnifood is a life saver! I just started a company, so there's
                 no time for cooking. I couldn't live without my daily meals now!
               </blockquote>
-              <p class="text-base font-medium text-ltgray">
+              <p class="text-sm font-medium text-ltgray lg:text-base">
                 &mdash; Steve Miller
               </p>
             </figure>
@@ -601,13 +647,13 @@
               <img
                 src="./img/customers/ben.jpg"
                 alt="Ben"
-                class="w-16 rounded-full"
+                class="w-14 rounded-full lg:w-16"
               />
-              <blockquote class="text-base xl:text-xl">
+              <blockquote class="text-base lg:text-xl">
                 The AI algorithm is crazy good, it chooses the right meals for
                 me every time. It's amazing not to worry about food anymore!
               </blockquote>
-              <p class="text-base font-medium text-ltgray">
+              <p class="text-sm font-medium text-ltgray lg:text-base">
                 &mdash; Ben Hadley
               </p>
             </figure>
@@ -615,13 +661,13 @@
               <img
                 src="./img/customers/hannah.jpg"
                 alt="Hannah"
-                class="w-16 rounded-full"
+                class="w-14 rounded-full lg:w-16"
               />
-              <blockquote class="text-base xl:text-xl">
+              <blockquote class="text-base lg:text-xl">
                 I got Omnifood for the whole family, and it frees up so much
                 time! Plus, everything is organic and vegan and without plastic.
               </blockquote>
-              <p class="text-base font-medium text-ltgray">
+              <p class="text-sm font-medium text-ltgray lg:text-base">
                 &mdash; Hannah Smith
               </p>
             </figure>
@@ -716,8 +762,10 @@
       </section>
       <section class="my-0 mx-auto max-w-screen-lg xl:max-w-screen-xl">
         <div class="mb-5 flex flex-col gap-x-20 py-20">
-          <h4 class="font-bold uppercase text-lorange">Pricing</h4>
-          <h2 class="text-4xl font-bold xl:text-5xl">
+          <h4 class="text-base font-semibold uppercase text-dorange lg:text-lg">
+            Pricing
+          </h4>
+          <h2 class="text-2xl font-bold lg:text-4xl">
             Eating well without breaking the bank
           </h2>
         </div>
@@ -727,13 +775,13 @@
           >
             <div class="mb-12 text-center">
               <h4
-                class="my-6 text-lg font-bold uppercase text-orange xl:text-xl"
+                class="my-6 text-lg font-bold uppercase text-orange lg:text-xl"
               >
                 Starter
               </h4>
               <div class="mb-4">
-                <span class="text-3xl font-bold">&dollar;</span>
-                <span class="text-4xl font-bold xl:text-5xl">399</span>
+                <span class="text-3xl font-bold lg:text-5xl">&dollar;</span>
+                <span class="text-3xl font-bold lg:text-5xl">399</span>
               </div>
               <p>per month. That's just &dollar;13 per meal</p>
             </div>
@@ -745,7 +793,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -762,7 +810,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -779,7 +827,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -796,7 +844,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -810,7 +858,7 @@
             <div class="mt-12 mb-6 text-center">
               <a
                 href="#"
-                class="mr-2 box-border inline-block rounded-lg bg-orange px-8 py-3 text-center font-inter text-xl font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange"
+                class="mr-2 box-border inline-block rounded-lg bg-orange px-8 py-3 text-center font-inter text-sm font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange lg:text-base xl:text-xl"
               >
                 Start eating well
               </a>
@@ -826,13 +874,13 @@
                 Best value
               </p>
               <h4
-                class="my-4 text-lg font-bold uppercase text-orange xl:my-1 xl:text-xl"
+                class="mb-8 text-lg font-bold uppercase text-orange lg:mb-3 lg:text-xl"
               >
                 Complete
               </h4>
-              <div class="mb-2 xl:mb-7">
-                <span class="text-3xl font-bold">&dollar;</span>
-                <span class="text-4xl font-bold xl:text-5xl">649</span>
+              <div class="mb-2 lg:mb-7">
+                <span class="text-3xl font-bold lg:text-5xl">&dollar;</span>
+                <span class="text-3xl font-bold lg:text-5xl">649</span>
               </div>
               <p>per month. That's just &dollar;11 per meal</p>
             </div>
@@ -844,7 +892,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -861,7 +909,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -878,7 +926,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -895,7 +943,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="#e67e22"
-                  class="inline-block h-6 w-6"
+                  class="inline-block h-5 w-5 lg:h-6 lg:w-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -909,7 +957,7 @@
             <div class="mb-6 mt-6 text-center xl:mt-12">
               <a
                 href="#"
-                class="mr-2 box-border inline-block rounded-lg bg-orange px-8 py-3 text-center font-inter text-xl font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange"
+                class="mr-2 mt-6 box-border inline-block rounded-lg bg-orange px-8 py-3 text-center font-inter text-sm font-semibold text-white transition-all duration-300 hover:bg-lorange focus:outline-none focus:ring-8 focus:ring-lorange lg:mt-0 lg:text-base xl:text-xl"
               >
                 Start eating well
               </a>
@@ -928,10 +976,12 @@
           <div>
             <ion-icon
               name="infinite-outline"
-              class="h-8 w-8 rounded-full bg-linen px-4 py-4 text-center text-orange"
+              class="h-6 w-6 rounded-full bg-linen px-4 py-4 text-center text-orange lg:h-8 lg:w-8"
             ></ion-icon>
-            <p class="mb-4 text-2xl font-bold text-dgray">Never cook again!</p>
-            <p class="text-lg text-dgray">
+            <p class="mb-4 text-lg font-bold text-dgray lg:text-2xl">
+              Never cook again!
+            </p>
+            <p class="text-base text-dgray lg:text-lg">
               Our subscriptions cover 365 days per year, even including major
               holidays.
             </p>
@@ -939,10 +989,12 @@
           <div>
             <ion-icon
               name="nutrition-outline"
-              class="h-8 w-8 rounded-full bg-linen px-4 py-4 text-center text-orange"
+              class="h-6 w-6 rounded-full bg-linen px-4 py-4 text-center text-orange lg:h-8 lg:w-8"
             ></ion-icon>
-            <p class="mb-4 text-2xl font-bold text-dgray">Local and organic</p>
-            <p class="text-lg text-dgray">
+            <p class="mb-4 text-lg font-bold text-dgray lg:text-2xl">
+              Local and organic
+            </p>
+            <p class="text-base text-dgray lg:text-lg">
               Our cooks only use local, fresh, and organic products to prepare
               your meals.
             </p>
@@ -950,10 +1002,12 @@
           <div>
             <ion-icon
               name="leaf-outline"
-              class="h-8 w-8 rounded-full bg-linen px-4 py-4 text-center text-orange"
+              class="h-6 w-6 rounded-full bg-linen px-4 py-4 text-center text-orange lg:h-8 lg:w-8"
             ></ion-icon>
-            <p class="mb-4 text-2xl font-bold text-dgray">No waste</p>
-            <p class="text-lg text-dgray">
+            <p class="mb-4 text-lg font-bold text-dgray lg:text-2xl">
+              No waste
+            </p>
+            <p class="text-base text-dgray lg:text-lg">
               All our partners only use reusable containers to package all your
               meals.
             </p>
@@ -961,10 +1015,12 @@
           <div>
             <ion-icon
               name="pause-outline"
-              class="h-8 w-8 rounded-full bg-linen px-4 py-4 text-center text-orange"
+              class="h-6 w-6 rounded-full bg-linen px-4 py-4 text-center text-orange lg:h-8 lg:w-8"
             ></ion-icon>
-            <p class="mb-4 text-2xl font-bold text-dgray">Pause anytime</p>
-            <p class="text-lg text-dgray">
+            <p class="mb-4 text-lg font-bold text-dgray lg:text-2xl">
+              Pause anytime
+            </p>
+            <p class="text-base text-dgray lg:text-lg">
               Going on vacation? Just pause your subscription, and we refund
               unused days.
             </p>
@@ -973,23 +1029,24 @@
       </section>
       <section>
         <div
-          class="mx-auto my-0 mb-32 grid max-w-screen-lg grid-cols-3 overflow-hidden rounded-lg bg-gradient-to-b from-ltorange to-orange shadow-2xl xl:max-w-screen-xl"
+          class="mx-auto my-0 mb-32 grid max-w-screen-lg grid-cols-3 overflow-hidden rounded-lg bg-gradient-to-b from-ltorange to-orange shadow-2xl lg:max-w-screen-xl"
         >
           <div class="col-span-2 px-20 pt-10">
-            <h2 class="pb-10 text-4xl font-bold text-brown xl:text-5xl">
+            <h2
+              class="pb-10 text-3xl font-bold text-brown lg:text-4xl xl:text-5xl"
+            >
               Get your first meal for free!
             </h2>
-            <p class="mb-10 text-base text-dgray xl:text-lg">
+            <p class="mb-10 text-base text-dgray lg:text-lg">
               Healthy, tasty and hassle-free meals are waiting for you. Start
               eating well today. You can cancel or pause anytime. And the first
               meal is on us!
             </p>
-            <form
-              class="grid grid-cols-2 grid-rows-2 gap-y-9 gap-x-12"
-              action="#"
-            >
+            <form class="grid grid-cols-2 grid-rows-2 gap-x-12" action="#">
               <div>
-                <label for="full-name" class="block font-bold text-brown"
+                <label
+                  for="full-name"
+                  class="block text-sm font-bold text-brown lg:text-base"
                   >Full Name</label
                 >
                 <input
@@ -1001,7 +1058,9 @@
                 />
               </div>
               <div>
-                <label for="email" class="block font-bold text-brown"
+                <label
+                  for="email"
+                  class="block text-sm font-bold text-brown lg:text-base"
                   >Email address</label
                 >
                 <input
@@ -1013,12 +1072,14 @@
                 />
               </div>
               <div>
-                <label for="select-where" class="block font-bold text-brown"
+                <label
+                  for="select-where"
+                  class="block text-sm font-bold text-brown lg:text-base"
                   >Where did you hear from us?</label
                 >
                 <select
                   id="select-where"
-                  class="mt-2 w-full rounded-lg bg-linen px-2 py-3 focus:outline-none focus:ring-8 focus:ring-white"
+                  class="my-4 w-full items-center rounded-lg bg-linen px-2 py-3 focus:outline-none focus:ring-8 focus:ring-white"
                   required
                 >
                   <option value="" disabled selected>
@@ -1034,7 +1095,7 @@
               <div>
                 <a
                   href="#"
-                  class="focus:ring-7 focus:shadow-transparent mr-2 mt-8 box-border inline-block w-full rounded-lg bg-brown px-8 py-2.5 text-center font-inter text-xl font-semibold text-white transition-all duration-500 hover:bg-white hover:text-dgray focus:outline-none focus:ring-white"
+                  class="focus:ring-7 focus:shadow-transparent my-10 mr-2 box-border inline-block w-full rounded-lg bg-brown px-8 py-2.5 text-center font-inter text-base font-semibold text-white transition-all duration-500 hover:bg-white hover:text-dgray focus:outline-none focus:ring-white lg:text-xl"
                 >
                   Sign Up now
                 </a>
@@ -1045,7 +1106,7 @@
             <img
               src="./img/eating.jpg"
               alt="Eating"
-              class="bg-cover bg-center"
+              class="overflow-auto bg-cover"
             />
           </div>
         </div>
@@ -1054,47 +1115,64 @@
     </main>
     <footer>
       <div
-        class="mx-auto my-0 mb-32 grid max-w-screen-lg grid-cols-5 gap-x-24 xl:max-w-screen-xl"
+        class="mx-auto my-0 mb-32 grid max-w-screen-lg grid-cols-5 gap-x-24 lg:max-w-screen-xl"
       >
         <div>
           <img src="./img/omnifood-logo.png" alt="Omnifood Logo" />
           <ul class="flex gap-x-5 pt-5 pb-10">
             <li>
-              <ion-icon name="logo-instagram" class="h-6 w-6"></ion-icon>
+              <ion-icon
+                name="logo-instagram"
+                class="h-5 w-5 lg:h-6 lg:w-6"
+              ></ion-icon>
             </li>
             <li>
-              <ion-icon name="logo-facebook" class="h-6 w-6"></ion-icon>
+              <ion-icon
+                name="logo-facebook"
+                class="h-5 w-5 lg:h-6 lg:w-6"
+              ></ion-icon>
             </li>
             <li>
-              <ion-icon name="logo-twitter" class="h-6 w-6"></ion-icon>
+              <ion-icon
+                name="logo-twitter"
+                class="h-5 w-5 lg:h-6 lg:w-6"
+              ></ion-icon>
             </li>
           </ul>
-          <p class="text-sm text-ltgray">
+          <p class="text-sm text-ltgray lg:text-sm xl:text-base">
             Copyright © 2023 by Omnifood, Inc. All rights reserved.
           </p>
         </div>
-        <div class="flex flex-col justify-between text-ltgray">
-          <h2 class="text-lg font-semibold text-gray">Contact Us</h2>
+        <div
+          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+        >
+          <h2 class="font-semibold text-gray lg:text-lg">Contact Us</h2>
           <p>Grand Prairie, TX</p>
           <p class="mt-6">541-514-3016</p>
           <p>chuanha.dev@gmail.com</p>
         </div>
-        <div class="flex flex-col justify-between text-ltgray">
-          <h2 class="text-lg font-semibold text-gray">Account</h2>
+        <div
+          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+        >
+          <h2 class="font-semibold text-gray lg:text-lg">Account</h2>
           <a href="#">Create account</a>
           <a href="#">Sign in</a>
           <a href="#">IOS app</a>
           <a href="#">Android app</a>
         </div>
-        <div class="flex flex-col justify-between text-ltgray">
-          <h2 class="text-lg font-semibold text-gray">Company</h2>
+        <div
+          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+        >
+          <h2 class="font-semibold text-gray lg:text-lg">Company</h2>
           <a href="#">About</a>
           <a href="#">For Business</a>
           <a href="#">Cooking partners</a>
           <a href="#">Careers</a>
         </div>
-        <div class="flex flex-col justify-between text-ltgray">
-          <h2 class="text-lg font-semibold text-gray">Resources</h2>
+        <div
+          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+        >
+          <h2 class="font-semibold text-gray lg:text-lg">Resources</h2>
           <a href="#">Recipe directory</a>
           <a href="#">Help center</a>
           <a href="#">Privacy & terms</a>
