@@ -302,7 +302,7 @@
           </h2>
         </div>
         <div
-          class="mx-auto mt-20 grid max-w-screen-lg grid-cols-3 items-center gap-x-10 lg:gap-x-20 xl:max-w-screen-xl"
+          class="mx-auto mt-20 grid max-w-screen-xl grid-cols-2 items-center gap-x-10 gap-y-10 md:grid-cols-3 lg:gap-x-20"
         >
           <div
             class="overflow-hidden rounded-lg shadow-xl transition-all duration-500 hover:-translate-y-5"
@@ -459,7 +459,9 @@
               </ul>
             </div>
           </div>
-          <div class="flex flex-col">
+          <div
+            class="col-span-2 flex flex-col justify-self-center md:col-span-1"
+          >
             <h2 class="font-rubik text-2xl font-bold lg:text-3xl">
               Works with any diet:
             </h2>
@@ -791,7 +793,7 @@
           </figure>
         </div>
       </section>
-      <section class="my-0 mx-auto max-w-screen-lg xl:max-w-screen-xl">
+      <section class="my-0 mx-auto max-w-screen-xl">
         <div class="mb-5 flex flex-col gap-x-20 py-20 px-10">
           <h4 class="text-base font-semibold uppercase text-dorange lg:text-lg">
             Pricing
@@ -802,7 +804,7 @@
         </div>
         <div class="grid grid-cols-2 gap-16 xl:gap-20">
           <div
-            class="w-2/3 justify-self-end rounded-lg px-14 py-6 ring-2 ring-linen"
+            class="w-11/12 justify-self-end rounded-lg px-14 py-6 ring-2 ring-linen lg:w-2/3"
           >
             <div class="mb-12 text-center">
               <h4
@@ -896,7 +898,7 @@
             </div>
           </div>
           <div
-            class="w-2/3 overflow-hidden rounded-lg bg-linen px-14 py-6 ring-2 ring-linen"
+            class="w-11/12 overflow-hidden rounded-lg bg-linen px-14 py-6 ring-2 ring-linen lg:w-2/3"
           >
             <div class="mb-12 text-center">
               <p
@@ -996,16 +998,14 @@
           </div>
         </div>
       </section>
-      <section
-        class="mx-auto my-0 max-w-screen-lg py-12 px-10 lg:max-w-screen-xl"
-      >
+      <section class="mx-auto my-0 max-w-screen-xl py-12 px-10">
         <div>
           <aside class="mb-24 text-center text-dgray">
             Prices include all applicable taxes. You can cancel at any time.
             Both plans include the following:
           </aside>
         </div>
-        <div class="grid grid-cols-4 gap-x-24">
+        <div class="grid grid-cols-2 gap-x-24 gap-y-5 md:grid-cols-4">
           <div>
             <ion-icon
               name="infinite-outline"
@@ -1147,14 +1147,18 @@
           </div>
         </div>
       </section>
-      <hr class="mb-16 w-full bg-ltgray text-ltgray" />
+      <hr class="mb-10 w-full bg-ltgray text-ltgray lg:mb-16" />
     </main>
-    <footer
-      class="mx-auto my-0 mb-16 max-w-screen-lg px-10 lg:max-w-screen-xl xl:px-0"
-    >
-      <div class="grid max-w-screen-xl grid-cols-5 gap-x-10 lg:gap-x-20">
-        <div class="mx-auto">
-          <img src="./img/omnifood-logo.png" alt="Omnifood Logo" />
+    <footer class="mx-auto mb-10 h-auto max-w-screen-xl px-10 lg:mb-16 xl:px-0">
+      <div
+        class="grid max-w-screen-xl grid-cols-3 gap-y-14 gap-x-10 md:grid-cols-5 lg:gap-x-20"
+      >
+        <div class="col-span-2 mx-auto md:col-span-1">
+          <img
+            src="./img/omnifood-logo.png"
+            alt="Omnifood Logo"
+            class="w-2/3"
+          />
           <ul class="flex gap-x-5 pt-5 pb-10">
             <li>
               <ion-icon
@@ -1188,7 +1192,7 @@
           <p>chuanha.dev@gmail.com</p>
         </div>
         <div
-          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+          class="row-start-1 flex flex-col justify-between text-sm text-ltgray md:row-auto xl:text-lg"
         >
           <h2 class="font-semibold text-gray lg:text-lg">Account</h2>
           <a href="#">Create account</a>
@@ -1197,7 +1201,7 @@
           <a href="#">Android app</a>
         </div>
         <div
-          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+          class="row-start-1 flex flex-col justify-between gap-y-4 text-sm text-ltgray md:row-auto xl:text-lg"
         >
           <h2 class="font-semibold text-gray lg:text-lg">Company</h2>
           <a href="#">About</a>
@@ -1206,7 +1210,7 @@
           <a href="#">Careers</a>
         </div>
         <div
-          class="flex flex-col justify-between text-sm text-ltgray xl:text-lg"
+          class="row-start-1 flex flex-col justify-between gap-y-4 text-sm text-ltgray md:row-auto xl:text-lg"
         >
           <h2 class="font-semibold text-gray lg:text-lg">Resources</h2>
           <a href="#">Recipe directory</a>
