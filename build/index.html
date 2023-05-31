@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
     />
+    <link rel="icon" href="./img/favicon.png" />
     <link rel="stylesheet" href="css/style.css" />
     <script
       type="module"
@@ -17,7 +18,7 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script defer src="./script.js"></script>
-    <title>Omnifood - Never cook again!</title>
+    <title>Omnifood &mdash; Never cook again!</title>
   </head>
   <body class="dark:true dark:bg-black">
     <header
@@ -124,11 +125,15 @@
             </div>
           </div>
           <div>
-            <img
-              src="img/hero.png"
-              alt="Hero Images"
-              class="mx-auto mb-10 w-2/3 lg:mb-0 lg:h-auto lg:w-full"
-            />
+            <picture>
+              <source srcset="img/hero-resize1.webp" type="image/webp" />
+              <source srcset="img/hero-resize.png" type="image/png" />
+              <img
+                src="img/hero-resize1.png"
+                alt="Women Eating"
+                class="mx-auto mb-10 w-2/3 lg:mb-0 lg:h-auto lg:w-full"
+              />
+            </picture>
           </div>
           <div class="flex items-center justify-self-center xl:-mt-16">
             <div class="flex">
@@ -245,7 +250,7 @@
           <div class="row-start-1 flex items-center justify-center sm:row-auto">
             <img
               src="./img/app/app-screen-1.png"
-              alt=""
+              alt="Iphone app"
               class="h-auto w-1/2 sm:w-2/3 lg:w-1/2"
             />
           </div>
@@ -256,7 +261,7 @@
           <div class="row-start-1 flex items-center justify-center sm:row-auto">
             <img
               src="./img/app/app-screen-2.png"
-              alt=""
+              alt="Iphone app"
               class="h-auto w-1/2 sm:w-2/3 lg:w-1/2"
             />
           </div>
@@ -301,7 +306,7 @@
           <div class="row-start-1 flex items-center justify-center sm:row-auto">
             <img
               src="./img/app/app-screen-3.png"
-              alt=""
+              alt="Iphone app"
               class="h-auto w-1/2 sm:w-2/3 lg:w-1/2"
             />
           </div>
