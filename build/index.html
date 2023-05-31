@@ -1099,8 +1099,10 @@
               meal is on us!
             </p>
             <form
+              name="sign-up"
+              method="POST"
               class="grid grid-cols-1 gap-y-4 gap-x-8 md:grid-cols-2 lg:grid-rows-2 lg:gap-y-0"
-              action="#"
+              netlify
             >
               <div>
                 <label
@@ -1112,6 +1114,7 @@
                   type="text"
                   id="full-name"
                   placeholder="Jason Ha"
+                  name="full-name"
                   required
                   class="mt-2 w-full rounded-lg bg-linen px-2 py-3 focus:outline-none focus:ring-8 focus:ring-white"
                 />
@@ -1126,6 +1129,7 @@
                   type="text"
                   placeholder="dev@gmail.com"
                   id="email"
+                  name="email"
                   required
                   class="mt-2 w-full rounded-lg bg-linen px-2 py-3 focus:outline-none focus:ring-8 focus:ring-white"
                 />
@@ -1138,6 +1142,7 @@
                 >
                 <select
                   id="select-where"
+                  name="select-where"
                   class="my-4 w-full items-center rounded-lg bg-linen px-2 py-3 focus:outline-none focus:ring-8 focus:ring-white"
                   required
                 >
@@ -1153,7 +1158,7 @@
               </div>
               <div>
                 <button
-                  href="#"
+                  type="submit"
                   class="focus:ring-7 focus:shadow-transparent mr-2 mb-5 box-border inline-block w-full rounded-lg bg-brown px-8 py-2.5 text-center font-inter text-sm font-semibold text-white transition-all duration-500 hover:bg-white hover:text-dgray focus:outline-none focus:ring-white lg:my-10 lg:text-xl"
                 >
                   Sign Up now
